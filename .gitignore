@@ -7,7 +7,6 @@ node_modules
 npm-debug.log
 yarn-error.log
 .pnpm-debug.log
-package-lock.json
 
 # Tauri
 src-tauri/target
@@ -28,3 +27,7 @@ src-tauri/target
 .DS_Store
 Thumbs.db
 .nvmrc
+
+# Lock files - use npm
+yarn.lock
+pnpm-lock.yaml
