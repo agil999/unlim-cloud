@@ -14,5 +14,14 @@
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.5.6"
+  },
+  {
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "vite build",
+    "tauri": "tauri",
+    "start": "vite",
+    "rls": "tauri build"
   }
+}
 }
