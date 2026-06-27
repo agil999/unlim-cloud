@@ -1,8 +1,5 @@
 {
   "buildCommand": "yarn install && yarn build",
   "outputDirectory": "dist",
-  "framework": "vite",
-  "env": {
-    "NODE_ENV": "production"
-  }
+  "framework": "other"
 }
