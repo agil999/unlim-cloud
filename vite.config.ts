@@ -4,10 +4,12 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     emptyOutDir: true,
+    minify: 'terser',
   },
   server: {
     port: 3000,
     host: true,
   },
   root: './src',
+  publicDir: 'assets',
 })
